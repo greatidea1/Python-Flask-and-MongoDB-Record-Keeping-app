@@ -1,0 +1,4 @@
+flask
+flask-pymongo
+python-dotenv
+werkzeug==2.1.0

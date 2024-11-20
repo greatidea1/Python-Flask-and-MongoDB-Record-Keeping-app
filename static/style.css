@@ -1,0 +1,192 @@
+/* Global Styles */
+html *
+{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+/* Global Styles */
+html *,
+{
+   font-size: 1em !important;
+   color: #000 !important;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+/* Forms and Inputs */
+input[type="text"], input[type="date"], .search-input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin: 10px 0; /* Adjusting button margin for better spacing */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Search and Results Section */
+.search-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-form {
+    display: flex;
+    justify-content: center; /* Center the search form */
+    align-items: center;
+    gap: 10px; /* Space between the search input and button */
+}
+
+.search-button {
+    padding: 12px 20px;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.search-button:hover {
+    background-color: #fb8c00;
+}
+
+/* Results Section */
+.results-section {
+    margin-top: 30px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.results-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.result-item {
+    background-color: #f9f9f9;
+    padding: 12px;
+    border: 1px solid #ddd;
+    margin: 8px 0;
+    border-radius: 5px;
+    text-align: left; /* Left-align text in result items */
+}
+
+.result-item div {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.result-item strong {
+    color: #333;
+}
+
+/* Search Result Text */
+.results-list .result-item div {
+    color: rgb(20, 95, 209); /* Set search result text to blue */
+}
+
+
+/* Add New User Section */
+.form-section {
+    margin-top: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+    margin: 40px 0;
+    border: 1px solid #ddd;
+}
+
+/* Input Field Layout */
+.row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.col {
+    width: 48%;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 18px; /* Increased font size */
+    color: #006400; /* Dark Green color for labels */
+}
+
+input[type="text"], input[type="date"] {
+    margin-bottom: 20px;
+}
+
+
+/* Search Result Text */
+.results-list .result-item div {
+    color: rgb(20, 95, 209); /* Set search result text to blue */
+}
+
+/* Equalize the button size */
+.search-button, .add-user-button {
+    width: auto;
+    padding: 12px 20px; /* Ensure buttons have same height */
+    font-size: 14px;
+}
+
+.reset-button, .clear-button {
+    background-color: #a23939;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+    margin: 10px 0; /* Adjusting button margin for better spacing */
+}
+
+.reset-button:hover, .clear-button:hover {
+    background-color: #e0e0e0;
+}
+
